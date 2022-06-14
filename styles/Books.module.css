@@ -1,0 +1,17 @@
+.books__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.book {
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+  background-color: blue;
+  color: #f3f3f3;
+}
+
+.book__img {
+  height: 3rem;
+}
